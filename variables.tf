@@ -12,13 +12,13 @@ variable engine_family {
 
 variable vpc_security_group_ids {
   type        = list
-  default     = ["sg-0d78689315ff00ae3"]
+  default     = ["sg-0cbb1b3d57f47c3fd"]
   description = "description"
 }
 
 variable vpc_subnet_ids {
   type        = list
-  default     = ["subnet-0807fd8c6bdfb7d2b", "subnet-086118b07bc20a940"]
+  default     = ["subnet-0182ff33d73992d13", "subnet-039862627d3503915"]
   description = "description"
 }
 
