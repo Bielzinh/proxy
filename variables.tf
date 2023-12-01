@@ -30,7 +30,7 @@ variable secret_arn {
 
 variable db_instance_identifier {
   type        = string
-  default     = "test"
+  default     = "null"
   description = "description"
 }
 
