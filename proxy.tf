@@ -36,6 +36,7 @@ resource "aws_db_proxy_target" "rdsproxy_target" {
   db_proxy_name = aws_db_proxy.rdsproxy.name
   target_group_name = aws_db_proxy_default_target_group.rdsproxy_tg.name
   db_instance_identifier = var.db_instance_identifier
+  db_cluster_identifier = var.db_cluster_identifier
 }
 
 resource "aws_db_proxy_endpoint" "rds_endpoint" {
