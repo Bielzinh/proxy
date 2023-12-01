@@ -30,13 +30,13 @@ variable secret_arn {
 
 variable db_instance_identifier {
   type        = string
-  default     = "null"
+  default     = null
   description = "description"
 }
 
 variable db_cluster_identifier {
   type        = string
-  default     = "null"
+  default     = null
   description = "description"
 }
 
