@@ -34,6 +34,12 @@ variable db_instance_identifier {
   description = "description"
 }
 
+variable db_cluster_identifier {
+  type        = string
+  default     = "null"
+  description = "description"
+}
+
 variable endpoint_name {
   type        = string
   default     = "proxy-test"
